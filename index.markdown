@@ -41,7 +41,7 @@ Also, i think a few things need to be combined and renamed.
 
 eg.
 
-{% highlight %}
+{% highlight ruby %}
   Gemfile      -> foo.gem_reqs
   Gemfile.lock -> foo.gem_spec  # ie. a dependency tree with a gemspec
   foo.gemspec  -> foo.gem_spec  # ie. a gemspec with a dependency tree
@@ -157,7 +157,7 @@ Can we use [thor](http://github.com/wycats/thor) to merge it in with
 
 ## Summary
 
-{% highlight %}
+{% highlight ruby %}
  { gem create foo } =  { jeweler foo    }
  { rake           } += { thor           }
  { rake gem_spec  } += { bundle lock    }
