@@ -170,3 +170,6 @@ Summary
  { rake gem_spec  } += { bundle lock    }
  { gem install    } += { bundle install }
 {% endhighlight %}
+
+
+[page source](http://github.com/yertto/yertto.github.com/blob/master/index.markdown)
