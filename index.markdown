@@ -4,14 +4,7 @@ body_id:      home
 title:        yertto
 ---
 
-Projects
----
-
-* [miff](miff)
-
-
-What's with all these command line tools?
----
+# What's with all these command line tools?
 
 I get [ruby](http://ruby-doc.org) and [irb](http://ruby-doc.org/docs/ProgrammingRuby/html/irb.html),
 but what's with all these other command line tools?
@@ -28,8 +21,8 @@ Can't they be combined or merged or something?
 I'm so looking forward to the day this all gets cleaned up.
 
 
-Installing gems
----
+## Installing gems
+
 Currently done with:
 
 {% highlight sh %}
@@ -78,8 +71,8 @@ is created by the bastard child of [jeweler](http://technicalpickles.com/posts/c
 so that it will add the dependency tree to the foo.gem_spec file.
 
 
-Creating gems
----
+## Creating gems
+
 So, the gem developer just has to worry about editing,
   
 {% highlight ruby %}
@@ -117,8 +110,8 @@ eg.
 {% endhighlight %}
 
 
-[jeweler](http://technicalpickles.com/posts/craft-the-perfect-gem-with-jeweler/)
----
+## [jeweler](http://technicalpickles.com/posts/craft-the-perfect-gem-with-jeweler/)
+
 [jeweler](http://technicalpickles.com/posts/craft-the-perfect-gem-with-jeweler/) tool is another command line tool we don't need.
 
 they should also merge the [jeweler](http://technicalpickles.com/posts/craft-the-perfect-gem-with-jeweler/) tool with the "gem" tool, so
@@ -155,15 +148,15 @@ should be changed to,
 for the day when github is no longer *the* place to store code.
 
 
-[rake](http://rake.rubyforge.org)
----
+## [rake](http://rake.rubyforge.org)
+
 Oh yer [rake](http://rake.rubyforge.org), do we need that?
 Can we use [thor](http://github.com/wycats/thor) to merge it in with
 [gem](http://docs.rubygems.org/read/chapter/9)?
 
 
-Summary
----
+## Summary
+
 {% highlight %}
  { gem create foo } =  { jeweler foo    }
  { rake           } += { thor           }
